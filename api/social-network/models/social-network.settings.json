@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_networks",
+  "info": {
+    "name": "socialNetwork"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "platform": {
+      "type": "json"
+    }
+  }
+}

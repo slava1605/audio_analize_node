@@ -1,0 +1,197 @@
+{
+  "kind": "collectionType",
+  "collectionName": "songs",
+  "info": {
+    "name": "Song",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "track_title": {
+      "type": "string"
+    },
+    "track_url": {
+      "type": "string"
+    },
+    "upload_date": {
+      "type": "date"
+    },
+    "cover_picture": {
+      "type": "string"
+    },
+    "visible_online": {
+      "type": "boolean"
+    },
+    "downloadable": {
+      "type": "boolean"
+    },
+    "star_rating": {
+      "type": "float"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "album_title": {
+      "type": "string"
+    },
+    "track_length": {
+      "type": "string"
+    },
+    "track_format": {
+      "type": "string"
+    },
+    "preferred_ISRC": {
+      "type": "string"
+    },
+    "pline": {
+      "type": "string"
+    },
+    "cline": {
+      "type": "string"
+    },
+    "themes": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "timeSignature": {
+      "type": "string"
+    },
+    "parental_warning": {
+      "type": "string"
+    },
+    "instrumental": {
+      "type": "boolean"
+    },
+    "samples": {
+      "type": "boolean"
+    },
+    "recording_version": {
+      "type": "string"
+    },
+    "tempo": {
+      "type": "string"
+    },
+    "decade": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "lyrics": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "json"
+    },
+    "master": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "files": {
+      "type": "string"
+    },
+    "licenseAndSell": {
+      "type": "boolean"
+    },
+    "base_price": {
+      "type": "json"
+    },
+    "distribution": {
+      "type": "json"
+    },
+    "analysis_id": {
+      "type": "string"
+    },
+    "genreTags": {
+      "type": "json"
+    },
+    "genre": {
+      "type": "json"
+    },
+    "mood": {
+      "type": "json"
+    },
+    "moodMaxTimes": {
+      "type": "json"
+    },
+    "voice": {
+      "type": "json"
+    },
+    "instruments": {
+      "type": "json"
+    },
+    "instrumentPresence": {
+      "type": "json"
+    },
+    "subgenreEdm": {
+      "type": "json"
+    },
+    "subgenreEdmTags": {
+      "type": "json"
+    },
+    "experimental_keywords": {
+      "type": "json"
+    },
+    "segments": {
+      "type": "json"
+    },
+    "moodTags": {
+      "type": "json"
+    },
+    "instrumentTags": {
+      "type": "json"
+    },
+    "valence": {
+      "type": "float"
+    },
+    "arousal": {
+      "type": "float"
+    },
+    "energyLevel": {
+      "type": "string"
+    },
+    "energyDynamics": {
+      "type": "string"
+    },
+    "emotionalProfile": {
+      "type": "string"
+    },
+    "voicePresenceProfile": {
+      "type": "string"
+    },
+    "emotionalDynamics": {
+      "type": "string"
+    },
+    "predominantVoiceGender": {
+      "type": "string"
+    },
+    "musicalEraTag": {
+      "type": "string"
+    },
+    "bpm": {
+      "type": "integer"
+    },
+    "analysisStatus": {
+      "type": "string"
+    },
+    "album": {
+      "type": "string"
+    },
+    "ISRC": {
+      "type": "string"
+    },
+    "playlistPhoto": {
+      "type": "string"
+    }
+  }
+}

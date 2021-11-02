@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/social-network",
+      "handler": "social-network.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/social-network",
+      "handler": "social-network.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/social-network",
+      "handler": "social-network.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

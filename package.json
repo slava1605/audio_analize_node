@@ -1,0 +1,54 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^2.3.3",
+    "knex": "^0.95.10",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.7.1",
+    "sqlite3": "^4.2.0",
+    "strapi": "^3.6.8",
+    "strapi-admin": "3.6.5",
+    "strapi-connector-bookshelf": "^3.1.4",
+    "strapi-connector-mongoose": "^3.6.6",
+    "strapi-plugin-content-manager": "^3.6.8",
+    "strapi-plugin-content-type-builder": "^3.6.8",
+    "strapi-plugin-email": "3.6.5",
+    "strapi-plugin-email-designer": "^1.1.4",
+    "strapi-plugin-i18n": "^3.6.8",
+    "strapi-plugin-upload": "^3.6.8",
+    "strapi-plugin-users-permissions": "^3.6.8",
+    "strapi-provider-email-sendgrid": "^3.6.6",
+    "strapi-provider-upload-aws-s3": "^3.6.5",
+    "strapi-utils": "3.6.5",
+    "uuidv4": "^6.2.12"
+  },
+  "author": "A Strapi developer",
+  "strapi": {
+    "uuid": "c4c6d90d-4d1e-480b-954a-8814d0ace996"
+  },
+  "engines": {
+    "node": ">=10.16.0",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://anton1agile@github.com/matimoon/SongBox-BackEnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matimoon/SongBox-BackEnd/issues"
+  },
+  "homepage": "https://github.com/matimoon/SongBox-BackEnd#readme"
+}
